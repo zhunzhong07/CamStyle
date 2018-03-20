@@ -15,21 +15,17 @@ Code for Camera Style Adaptation for Person Re-identification (CVPR 2018). If yo
 1. Install [Pytorch](http://pytorch.org/)
 
 2. Download dataset
-
-   Please download datasets and put them into 'CamStyle/data/market' and 'CamStyle/data/duke', respectively.
    
-   - Market-1501   [[BaiduYun]](https://pan.baidu.com/s/1ntIi2Op) [[GoogleDriver]](https://drive.google.com/file/d/0B8-rUzbwVRk0c054eEozWG9COHM/view)
+   - Market-1501   [[BaiduYun]](https://pan.baidu.com/s/1ntIi2Op) [[GoogleDriver]](https://drive.google.com/file/d/0B8-rUzbwVRk0c054eEozWG9COHM/view) Move it to 'CamStyle/data/market'
    
-   - DukeMTMC-reID   [[BaiduYun]](https://pan.baidu.com/share/init?surl=kUD80xp) (password: chu1) [[GoogleDriver]](https://drive.google.com/file/d/0B0VOCNYh8HeRdnBPa2ZWaVBYSVk/view)
+   - DukeMTMC-reID   [[BaiduYun]](https://pan.baidu.com/share/init?surl=kUD80xp) (password: chu1) [[GoogleDriver]](https://drive.google.com/file/d/0B0VOCNYh8HeRdnBPa2ZWaVBYSVk/view) Move it to 'CamStyle/data/duke'
    
 
 3. Download CamStyle Images
    
-   Please download CamStyle images and put them into 'CamStyle/data/market/boungding_box_train_camstyle' and 'CamStyle/data/duke/boungding_box_train_camstyle', respectively.
-
-   - Market-1501-Camstyle   [[BaiduYun]]() [[GoogleDriver]]()
+   - Market-1501-Camstyle   [[BaiduYun]]() [[GoogleDriver]]() Move it to 'CamStyle/data/market/boungding_box_train_camstyle'
    
-   - DukeMTMC-reID-CamStyle   [[BaiduYun]]() [[GoogleDriver]]()
+   - DukeMTMC-reID-CamStyle   [[BaiduYun]]() [[GoogleDriver]]() Move it to 'CamStyle/data/duke/boungding_box_train_camstyle'
 
 
 ### Train and test
