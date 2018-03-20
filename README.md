@@ -12,7 +12,7 @@ Code for Camera Style Adaptation for Person Re-identification (CVPR 2018). If yo
 
 ### Prepare
 
-1. Install Pytorch
+1. Install [Pytorch](http://pytorch.org/)
 
 2. Download dataset
 
