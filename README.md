@@ -23,9 +23,9 @@ Code for Camera Style Adaptation for Person Re-identification (CVPR 2018). If yo
 
 3. Download CamStyle Images
    
-   - Market-1501-Camstyle   [[BaiduYun]]() [[GoogleDriver]]() Move it to 'CamStyle/data/market/boungding_box_train_camstyle'
+   - Market-1501-Camstyle   [[BaiduYun]]() [[GoogleDriver]](https://drive.google.com/open?id=1z9bc-I23OyLCZ2eTms2NTWSq4gePp2fr) Move it to 'CamStyle/data/market/boungding_box_train_camstyle'
    
-   - DukeMTMC-reID-CamStyle   [[BaiduYun]]() [[GoogleDriver]]() Move it to 'CamStyle/data/duke/boungding_box_train_camstyle'
+   - DukeMTMC-reID-CamStyle   [[BaiduYun]]() [[GoogleDriver]](https://drive.google.com/open?id=1QX3K_RK1wBPPLQRYRyvG0BIf-bzsUKbt) Move it to 'CamStyle/data/duke/boungding_box_train_camstyle'
 
 
 ### Train and test
