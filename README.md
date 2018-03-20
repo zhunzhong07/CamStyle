@@ -35,7 +35,7 @@
 
 ### References
 
-- Our code is conducted based on [open-reid](https://github.com/Cysu/open-reid)
+Our code is conducted based on [open-reid](https://github.com/Cysu/open-reid)
 
 
 If you find this code useful in your research, please consider citing:
