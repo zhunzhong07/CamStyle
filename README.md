@@ -1,4 +1,4 @@
-# Camera Style Adaptation for Person Re-identification CVPR 2018 
+# Camera Style Adaptation for Person Re-identification
 ================================================================
 
 ### Prepare
