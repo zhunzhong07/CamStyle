@@ -56,6 +56,45 @@ Code for Camera Style Adaptation for Person Re-identification (CVPR 2018). If yo
   # For Duke
   python main.py -d duke --logs-dir logs/duke-ide--camstyle-re --camstyle 46 --re 0.5
   ```
+  
+### Results
+
+<table>
+   <tr>
+      <td></td>
+      <td colspan="2">Market-1501</td>
+      <td colspan="2">Duke</td>
+   </tr>
+   <tr>
+      <td>Methods</td>
+      <td>Rank-1</td>
+      <td>mAP</td>
+      <td>Rank-1</td>
+      <td>mAP</td>
+   </tr>
+   <tr>
+      <td>IDE</td>
+      <td>85.6</td>
+      <td>65.8</td>
+      <td>72.3</td>
+      <td>51.8</td>
+   </tr>
+   <tr>
+      <td>IDE+CamStyle</td>
+      <td>88.1</td>
+      <td>68.7</td>
+      <td>75.2</td>
+      <td>53.4</td>
+   </tr>
+   <tr>
+      <td>IDE+CamStyle+Random Erasing</td>
+      <td>89.4</td>
+      <td>71.5</td>
+      <td>78.3</td>
+      <td>57.6</td>
+   </tr>
+</table>
+
 
 ### References
 
