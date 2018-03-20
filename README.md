@@ -24,8 +24,14 @@
   # For Duke
   python main.py -d duke --logs-dir logs/duke-ide--camstyle --camstyle 46
   ```
-
-
+  
+3. IDE + CamStyle + Random Erasing
+  ```Shell
+  # For Market-1501
+  python main.py -d market --logs-dir logs/market-ide-camstyle-re --camstyle 46 --re 0.5
+  # For Duke
+  python main.py -d duke --logs-dir logs/duke-ide--camstyle-re --camstyle 46 --re 0.5
+  ```
 
 ### References
 
