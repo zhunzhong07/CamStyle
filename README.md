@@ -16,16 +16,20 @@ Code for Camera Style Adaptation for Person Re-identification (CVPR 2018). If yo
 
 2. Download dataset
    
-   - Market-1501   [[BaiduYun]](https://pan.baidu.com/s/1ntIi2Op) [[GoogleDriver]](https://drive.google.com/file/d/0B8-rUzbwVRk0c054eEozWG9COHM/view) Move it to 'CamStyle/data/market'
+   - Market-1501   [[BaiduYun]](https://pan.baidu.com/s/1ntIi2Op) [[GoogleDriver]](https://drive.google.com/file/d/0B8-rUzbwVRk0c054eEozWG9COHM/view)
    
-   - DukeMTMC-reID   [[BaiduYun]](https://pan.baidu.com/share/init?surl=kUD80xp) (password: chu1) [[GoogleDriver]](https://drive.google.com/file/d/0B0VOCNYh8HeRdnBPa2ZWaVBYSVk/view) Move it to 'CamStyle/data/duke'
+   - DukeMTMC-reID   [[BaiduYun]](https://pan.baidu.com/share/init?surl=kUD80xp) (password: chu1) [[GoogleDriver]](https://drive.google.com/file/d/0B0VOCNYh8HeRdnBPa2ZWaVBYSVk/view)
+   
+   - Move them to 'CamStyle/data/market (or duke)'
    
 
 3. Download CamStyle Images
    
-   - Market-1501-Camstyle   [[BaiduYun]]() [[GoogleDriver]](https://drive.google.com/open?id=1z9bc-I23OyLCZ2eTms2NTWSq4gePp2fr) Move it to 'CamStyle/data/market/boungding_box_train_camstyle'
+   - Market-1501-Camstyle   [[BaiduYun]]() [[GoogleDriver]](https://drive.google.com/open?id=1z9bc-I23OyLCZ2eTms2NTWSq4gePp2fr)
    
-   - DukeMTMC-reID-CamStyle   [[BaiduYun]]() [[GoogleDriver]](https://drive.google.com/open?id=1QX3K_RK1wBPPLQRYRyvG0BIf-bzsUKbt) Move it to 'CamStyle/data/duke/boungding_box_train_camstyle'
+   - DukeMTMC-reID-CamStyle   [[BaiduYun]]() [[GoogleDriver]](https://drive.google.com/open?id=1QX3K_RK1wBPPLQRYRyvG0BIf-bzsUKbt)
+   
+   - Move them to 'CamStyle/data/market (or duke)/bounding_box_train_camstyle'
 
 
 ### Train and test
