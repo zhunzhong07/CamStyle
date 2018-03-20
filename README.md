@@ -26,11 +26,16 @@
   ```
 
 
-Our code is conducted based on [open-reid](https://github.com/Cysu/open-reid)
+
+
+### References
+
+- Our code is conducted based on [open-reid](https://github.com/Cysu/open-reid)
+
 
 If you find this code useful in your research, please consider citing:
 
-    @inproceedings{zhong2018camera,
+    @inproceedings{zhong2018camera,
     title={Camera Style Adaptation for Person Re-identification},
     author={Zhong, Zhun and Zheng, Liang and Zheng, Zhedong and Li, Shaozi and Yang, Yi},
     booktitle={CVPR},
