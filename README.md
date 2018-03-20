@@ -10,21 +10,20 @@
 
 ### Train and test
 
-1. IDE baseline
+1. IDE
   ```Shell
   # For Market-1501
   python main.py -d market --logs-dir logs/market-ide
   # For Duke
   python main.py -d duke --logs-dir logs/duke-ide
   ```
-2. CamStyle
+2. IDE + CamStyle
   ```Shell
   # For Market-1501
   python main.py -d market --logs-dir logs/market-ide-camstyle --camstyle 46
   # For Duke
   python main.py -d duke --logs-dir logs/duke-ide--camstyle --camstyle 46
   ```
-
 
 
 
