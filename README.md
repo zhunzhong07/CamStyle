@@ -1,16 +1,9 @@
 # Camera Style Adaptation for Person Re-identification
 ================================================================
 
-Code for Camera Style Adaptation for Person Re-identification (CVPR 2018). If you find this code useful in your research, please consider citing:
+Code for Camera Style Adaptation for Person Re-identification (CVPR 2018). 
 
-    @inproceedings{zhong2018camera,
-    title={Camera Style Adaptation for Person Re-identification},
-    author={Zhong, Zhun and Zheng, Liang and Zheng, Zhedong and Li, Shaozi and Yang, Yi},
-    booktitle={CVPR},
-    year={2018}
-    }
-
-### Prepare
+### Preparation
 
 1. Install [Pytorch](http://pytorch.org/)
 
@@ -32,7 +25,7 @@ Code for Camera Style Adaptation for Person Re-identification (CVPR 2018). If yo
    - Move them to 'CamStyle/data/market (or duke)/bounding_box_train_camstyle'
 
 
-### Train and test
+### Training and test
 
 1. IDE
   ```Shell
@@ -99,6 +92,18 @@ Code for Camera Style Adaptation for Person Re-identification (CVPR 2018). If yo
 ### References
 
 -Our code is conducted based on [open-reid](https://github.com/Cysu/open-reid)
+
+
+### Citation
+
+If you find this code useful in your research, please consider citing:
+
+    @inproceedings{zhong2018camera,
+    title={Camera Style Adaptation for Person Re-identification},
+    author={Zhong, Zhun and Zheng, Liang and Zheng, Zhedong and Li, Shaozi and Yang, Yi},
+    booktitle={CVPR},
+    year={2018}
+    }
 
     
 ### Contact me
