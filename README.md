@@ -42,7 +42,7 @@ Code for Camera Style Adaptation for Person Re-identification (CVPR 2018).
   python main.py -d duke --logs-dir logs/duke-ide--camstyle --camstyle 46
   ```
   
-3. IDE + CamStyle + Random Erasing
+3. IDE + CamStyle + Random Erasing[4]
   ```Shell
   # For Market-1501
   python main.py -d market --logs-dir logs/market-ide-camstyle-re --camstyle 46 --re 0.5
@@ -50,7 +50,7 @@ Code for Camera Style Adaptation for Person Re-identification (CVPR 2018).
   python main.py -d duke --logs-dir logs/duke-ide--camstyle-re --camstyle 46 --re 0.5
   ```
 
-4. IDE + CamStyle + Random Erasing + re-ranking
+4. IDE + CamStyle + Random Erasing[4] + re-ranking[3]
   ```Shell
   # For Market-1501
   python main.py -d market --logs-dir logs/market-ide-camstyle-re --camstyle 46 --re 0.5 --rerank
@@ -99,13 +99,13 @@ Code for Camera Style Adaptation for Person Re-identification (CVPR 2018).
 
 ### References
 
-- Our code is conducted based on [open-reid](https://github.com/Cysu/open-reid)
+- [1] Our code is conducted based on [open-reid](https://github.com/Cysu/open-reid)
 
-- Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks, ICCV 2017
+- [2] Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks, ICCV 2017
 
-- Re-ranking Person Re-identification with k-reciprocal Encoding. CVPR 2017.
+- [3] Re-ranking Person Re-identification with k-reciprocal Encoding. CVPR 2017.
 
-- Random Erasing Data Augmentation. Arxiv 2017.
+- [4] Random Erasing Data Augmentation. Arxiv 2017.
 
 
 
