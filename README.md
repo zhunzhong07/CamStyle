@@ -91,7 +91,9 @@ Code for Camera Style Adaptation for Person Re-identification (CVPR 2018).
 
 ### References
 
--Our code is conducted based on [open-reid](https://github.com/Cysu/open-reid)
+- Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks, ICCV 2017
+
+- Our code is conducted based on [open-reid](https://github.com/Cysu/open-reid)
 
 
 ### Citation
