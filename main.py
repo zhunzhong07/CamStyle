@@ -100,7 +100,7 @@ def main(args):
     evaluator = Evaluator(model)
     if args.evaluate:
         print("Test:")
-        evaluator.evaluate(query_loader, gallery_loader, dataset.query, dataset.gallery, args.output_feature)
+        evaluator.evaluate(query_loader, gallery_loader, dataset.query, dataset.gallery, args.output_feature, args.rerank)
         return
 
     # Criterion
@@ -148,7 +148,7 @@ def main(args):
     # Final test
     print('Test with best model:')
     evaluator = Evaluator(model)
-    evaluator.evaluate(query_loader, gallery_loader, dataset.query, dataset.gallery, args.output_feature)
+    evaluator.evaluate(query_loader, gallery_loader, dataset.query, dataset.gallery, args.output_feature, args.rerank)
 
 
 if __name__ == '__main__':
@@ -192,5 +192,7 @@ if __name__ == '__main__':
     parser.add_argument('--re', type=float, default=0)
     # camstyle batchsize
     parser.add_argument('--camstyle', type=int, default=0)
+    #  perform re-ranking
+    parser.add_argument('--rerank', action='store_true', help="perform re-ranking")
 
     main(parser.parse_args())
