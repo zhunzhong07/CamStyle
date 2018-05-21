@@ -61,12 +61,15 @@ def get_data(dataname, data_dir, height, width, batch_size, camstyle=0, re=0, wo
                      root=osp.join(dataset.images_dir, dataset.gallery_path), transform=test_transformer),
         batch_size=batch_size, num_workers=workers,
         shuffle=False, pin_memory=True)
-
-    camstyle_loader = DataLoader(
-        Preprocessor(dataset.camstyle, root=osp.join(dataset.images_dir, dataset.camstyle_path),
-                     transform=train_transformer),
-        batch_size=camstyle, num_workers=workers,
-        shuffle=True, pin_memory=True, drop_last=True)
+    
+    if camstyle <= 0:
+        camstyle_loader = None
+    else:
+        camstyle_loader = DataLoader(
+            Preprocessor(dataset.camstyle, root=osp.join(dataset.images_dir, dataset.camstyle_path),
+                         transform=train_transformer),
+            batch_size=camstyle, num_workers=workers,
+            shuffle=True, pin_memory=True, drop_last=True)
 
     return dataset, num_classes, train_loader, query_loader, gallery_loader, camstyle_loader
 
