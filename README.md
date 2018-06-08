@@ -25,9 +25,10 @@ Code for Camera Style Adaptation for Person Re-identification (CVPR 2018).
    - DukeMTMC-reID-CamStyle  [[GoogleDriver]](https://drive.google.com/open?id=1QX3K_RK1wBPPLQRYRyvG0BIf-bzsUKbt)
    
    - Move them to 'CamStyle/data/market (or duke)/bounding_box_train_camstyle'
-   
+
+
 ### CamStyle Generation
-[CycleGAN-for-CamStyle]()
+You can generation CamStyle imgaes with [CycleGAN-for-CamStyle](https://github.com/zhunzhong07/CamStyle/tree/master/CycleGAN-for-CamStyle)
 
 
 ### Training and test
