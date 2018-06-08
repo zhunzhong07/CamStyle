@@ -40,10 +40,10 @@ If you use this code for your research, please cite our papers.
 ```
 
 @inproceedings{zhong2018camera,
-title={Camera Style Adaptation for Person Re-identification},
-author={Zhong, Zhun and Zheng, Liang and Zheng, Zhedong and Li, Shaozi and Yang, Yi},
-booktitle={CVPR},
-year={2018}
+  title={Camera Style Adaptation for Person Re-identification},
+  author={Zhong, Zhun and Zheng, Liang and Zheng, Zhedong and Li, Shaozi and Yang, Yi},
+  booktitle={CVPR},
+  year={2018}
 }
 
 @inproceedings{CycleGAN2017,
