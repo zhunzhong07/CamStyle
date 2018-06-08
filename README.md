@@ -31,7 +31,7 @@ Code for Camera Style Adaptation for Person Re-identification (CVPR 2018).
 You can generation CamStyle imgaes with [CycleGAN-for-CamStyle](https://github.com/zhunzhong07/CamStyle/tree/master/CycleGAN-for-CamStyle)
 
 
-### Training and test
+### Training and test re-ID model
 
 1. IDE
   ```Shell
