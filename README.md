@@ -5,7 +5,7 @@ Code for Camera Style Adaptation for Person Re-identification (CVPR 2018).
 
 ### Preparation
 
-#### Requirements: Python=3.6 and Pytorch=0.3.0
+#### Requirements: Python=3.6 and Pytorch>=0.3.0
 
 1. Install [Pytorch](http://pytorch.org/)
 
