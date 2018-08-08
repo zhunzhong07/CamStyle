@@ -21,8 +21,8 @@ if __name__ == '__main__':
     model.setup(opt)
     # test
     for i, data in enumerate(dataset):
-        if i >= opt.how_many:
-            break
+        # if i >= opt.how_many:
+            # break
         model.set_input(data)
         model.test()
         visuals = model.get_current_visuals()
