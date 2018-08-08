@@ -15,7 +15,7 @@ CamStyle is trained with [CycleGAN-pytorch](https://github.com/junyanz/pytorch-C
    
    - DukeMTMC-reID   [[BaiduYun]](https://pan.baidu.com/share/init?surl=kUD80xp) (password: chu1) [[GoogleDriver]](https://drive.google.com/file/d/0B0VOCNYh8HeRdnBPa2ZWaVBYSVk/view)
    
-   - Move them to 'CamStyle/CycleGAN-for-CamStyle/data/market (or duke)'
+   - Move them to 'CamStyle/CycleGAN-for-CamStyle/datasets/market (or duke)'
 
 # Train CamStyle models
 
